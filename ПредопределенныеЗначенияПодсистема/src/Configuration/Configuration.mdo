@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d34a58e4-9034-4c7d-8832-ee85f4704704">
+  <name>ПредопределенныеЗначенияПодсистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные значения подсистема</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b57ba81e-8cf0-4aed-8dde-7cc4ddbc9d81"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="926f62e8-7dc0-4cd2-8c46-9e056e845545"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="e760827e-7434-478d-b0ff-752f79c9d7be"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="98670616-fb8c-4431-b0a4-940be28bc772"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="27b04ddb-58a8-4204-9e8b-7686f8f603ea"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3743e1ef-3c98-49cc-b151-0dba871d9a9c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="02d31d94-3a1c-4328-96dd-dde067a9b2b3"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="eec7b3a1-963b-4b0a-9b76-0b1b4ed53908">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+</mdclass:Configuration>
