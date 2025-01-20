@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afd7b4f5-e274-45a2-8e94-7d9216318882">
+  <name>ПредопределенныеЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные значения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ПредопределенныеЗначения</content>
+  <parentSubsystem>Subsystem.БазовыеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

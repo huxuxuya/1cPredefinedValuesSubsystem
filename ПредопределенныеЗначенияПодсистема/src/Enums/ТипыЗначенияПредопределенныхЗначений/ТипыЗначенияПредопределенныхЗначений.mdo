@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2d12829-786f-4694-b3ca-01f89b6e315c">
+  <producedTypes>
+    <refType typeId="5069080c-6f24-4750-b3fc-56a6bfbfa060" valueTypeId="6a5c62dd-94c0-473c-9d23-92fea9341770"/>
+    <listType typeId="ba2db4cf-578d-4013-ba11-acae853e9d01" valueTypeId="b01a9274-dbbc-400a-9f0b-f850c2b9e1fa"/>
+    <managerType typeId="882b0538-28c0-42c9-9f9e-26c8fd9cdb04" valueTypeId="be609eae-77aa-45c1-b559-e62d91d2c649"/>
+  </producedTypes>
+  <name>ТипыЗначенияПредопределенныхЗначений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы значения предопределенных значений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fc73b2ea-a15b-4c50-8a5d-78cefbe4d514">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9d6d5de-5f85-4570-97e2-e0c159268b8c">
+    <name>Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47fba69b-7b5c-46ac-9fd2-4eef97bdd9ae">
+    <name>Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Булево</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e73df85d-f10f-4277-9356-6fb5a6abc740">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c27bf72c-f8f2-4981-8122-b46df9b9460a">
+    <name>КлючЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ значение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c787783c-d16a-4180-9e95-0b79ed1e9041">
+    <name>СписокЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список значений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46780f29-b466-4926-b57f-55edda887466">
+    <name>ТаблицаЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица значений</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

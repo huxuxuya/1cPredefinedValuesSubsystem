@@ -40,6 +40,11 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.БазовыеПодсистемы</subsystems>
+  <roles>Role.ДобавлениеИзменениеПредопределенныеЗначения</roles>
   <commonModules>CommonModule.БазоваяФункциональностьКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПредопределенныеЗначения</commonModules>
+  <commonModules>CommonModule.ПредопределенныеЗначенияПовтИсп</commonModules>
   <catalogs>Catalog.ПредопределенныеЗначения</catalogs>
+  <enums>Enum.ТипыЗначенияПредопределенныхЗначений</enums>
 </mdclass:Configuration>

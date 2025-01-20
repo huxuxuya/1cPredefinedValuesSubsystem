@@ -220,6 +220,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="054e6ebd-873d-4a7f-82b3-58307f2a499e">
+    <name>ТипЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип значения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПредопределенныеЗначения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="4312321c-77a2-4f43-932d-0dcdfb6cea3e">
     <producedTypes>
       <objectType typeId="95b2b2dd-225e-465a-82a4-f790e7aecdaa" valueTypeId="3ca36da3-7835-4768-a822-45450b8e571a"/>
