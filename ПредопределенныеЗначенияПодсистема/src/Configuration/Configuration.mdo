@@ -43,8 +43,9 @@
   <subsystems>Subsystem.БазовыеПодсистемы</subsystems>
   <roles>Role.ДобавлениеИзменениеПредопределенныеЗначения</roles>
   <commonModules>CommonModule.БазоваяФункциональностьКлиентСервер</commonModules>
-  <commonModules>CommonModule.ПредопределенныеЗначения</commonModules>
-  <commonModules>CommonModule.ПредопределенныеЗначенияПовтИсп</commonModules>
-  <catalogs>Catalog.ПредопределенныеЗначения</catalogs>
+  <commonModules>CommonModule.ПредопределенныеНастройки</commonModules>
+  <commonModules>CommonModule.ПредопределенныеНастройкиПереопределяемый</commonModules>
+  <commonModules>CommonModule.ПредопределенныеНастройкиПовтИсп</commonModules>
+  <catalogs>Catalog.ПредопределенныеНастройки</catalogs>
   <enums>Enum.ТипыЗначенияПредопределенныхЗначений</enums>
 </mdclass:Configuration>

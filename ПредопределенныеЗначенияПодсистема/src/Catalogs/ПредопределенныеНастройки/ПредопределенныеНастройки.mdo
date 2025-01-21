@@ -7,13 +7,13 @@
     <listType typeId="c5d567b2-86d6-41b2-a501-b3677cb2f2ec" valueTypeId="3a8f7b8e-fa66-4a97-a15c-f9c1ac6da43e"/>
     <managerType typeId="459cd52c-3e6b-4354-86b1-3c021c4277fb" valueTypeId="49685c80-6b35-40d0-90c0-7aaff0079276"/>
   </producedTypes>
-  <name>ПредопределенныеЗначения</name>
+  <name>ПредопределенныеНастройки</name>
   <synonym>
     <key>ru</key>
-    <value>Предопределенные значения</value>
+    <value>Предопределенные настройки</value>
   </synonym>
-  <inputByString>Catalog.ПредопределенныеЗначения.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.ПредопределенныеЗначения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПредопределенныеНастройки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПредопределенныеНастройки.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -106,8 +106,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.ПредопределенныеЗначения.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.ПредопределенныеЗначения.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Catalog.ПредопределенныеНастройки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПредопределенныеНастройки.Form.ФормаСписка</defaultListForm>
   <attributes uuid="3bcc50d4-6bfc-4252-bee2-ca13f2afe64c">
     <name>МногострочныйПараметр</name>
     <synonym>
@@ -227,7 +227,7 @@
       <value>Тип значения</value>
     </synonym>
     <type>
-      <types>CatalogRef.ПредопределенныеЗначения</types>
+      <types>CatalogRef.ПредопределенныеНастройки</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

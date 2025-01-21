@@ -7,6 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.ПредопределенныеЗначения</content>
+  <content>Catalog.ПредопределенныеНастройки</content>
   <parentSubsystem>Subsystem.БазовыеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

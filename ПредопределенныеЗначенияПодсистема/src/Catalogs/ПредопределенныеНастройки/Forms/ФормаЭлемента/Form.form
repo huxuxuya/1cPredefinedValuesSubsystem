@@ -1214,7 +1214,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.ПредопределенныеЗначения</types>
+      <types>CatalogObject.ПредопределенныеНастройки</types>
     </valueType>
     <view>
       <common>true</common>
