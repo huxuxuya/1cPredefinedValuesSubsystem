@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Предопределенные настройки</value>
   </synonym>
+  <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ПредопределенныеНастройки.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.ПредопределенныеНастройки.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -217,6 +218,7 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

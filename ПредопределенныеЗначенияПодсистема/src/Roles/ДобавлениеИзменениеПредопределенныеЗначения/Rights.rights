@@ -87,7 +87,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.ПредопределенныеЗначенияПодсистема</name>
+		<name>Configuration.ПредопределенныеНастройкиПодсистема</name>
 		<right>
 			<name>ThinClient</name>
 			<value>true</value>

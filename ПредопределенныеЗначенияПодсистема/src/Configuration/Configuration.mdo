@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d34a58e4-9034-4c7d-8832-ee85f4704704">
-  <name>ПредопределенныеЗначенияПодсистема</name>
+  <name>ПредопределенныеНастройкиПодсистема</name>
   <synonym>
     <key>ru</key>
-    <value>Предопределенные значения подсистема</value>
+    <value>Предопределенные настройки подсистема</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b57ba81e-8cf0-4aed-8dde-7cc4ddbc9d81"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="926f62e8-7dc0-4cd2-8c46-9e056e845545"/>
@@ -42,10 +42,12 @@
   </languages>
   <subsystems>Subsystem.БазовыеПодсистемы</subsystems>
   <roles>Role.ДобавлениеИзменениеПредопределенныеЗначения</roles>
+  <commonModules>CommonModule.БазоваяФункциональность</commonModules>
   <commonModules>CommonModule.БазоваяФункциональностьКлиентСервер</commonModules>
   <commonModules>CommonModule.ПредопределенныеНастройки</commonModules>
   <commonModules>CommonModule.ПредопределенныеНастройкиПереопределяемый</commonModules>
   <commonModules>CommonModule.ПредопределенныеНастройкиПовтИсп</commonModules>
   <catalogs>Catalog.ПредопределенныеНастройки</catalogs>
   <enums>Enum.ТипыЗначенияПредопределенныхЗначений</enums>
+  <dataProcessors>DataProcessor.ПредопределенныеНастройкиТестирование</dataProcessors>
 </mdclass:Configuration>
