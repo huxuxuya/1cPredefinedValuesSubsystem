@@ -19,6 +19,13 @@
       <value>Дата</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="c787783c-d16a-4180-9e95-0b79ed1e9041">
+    <name>Массив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Массив</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="e9d6d5de-5f85-4570-97e2-e0c159268b8c">
     <name>Строка</name>
     <synonym>
@@ -45,13 +52,6 @@
     <synonym>
       <key>ru</key>
       <value>Ключ значение</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="c787783c-d16a-4180-9e95-0b79ed1e9041">
-    <name>СписокЗначений</name>
-    <synonym>
-      <key>ru</key>
-      <value>Список значений</value>
     </synonym>
   </enumValues>
   <enumValues uuid="46780f29-b466-4926-b57f-55edda887466">

@@ -418,7 +418,7 @@
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Параметр</segments>
+          <segments>Объект.Значение</segments>
         </dataPath>
         <extendedTooltip>
           <name>ПараметрРасширеннаяПодсказка</name>

@@ -109,26 +109,11 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ПредопределенныеНастройки.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ПредопределенныеНастройки.Form.ФормаСписка</defaultListForm>
-  <attributes uuid="3bcc50d4-6bfc-4252-bee2-ca13f2afe64c">
-    <name>МногострочныйПараметр</name>
-    <synonym>
-      <key>ru</key>
-      <value>Многострочный параметр</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="e3acff62-249c-492d-82e5-0e04f0e4d7e1">
-    <name>Параметр</name>
+    <name>Значение</name>
     <synonym>
       <key>ru</key>
-      <value>Параметр</value>
+      <value>Значение</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -144,21 +129,6 @@
         <length>256</length>
       </stringQualifiers>
       <dateQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="72711f42-8edb-45e2-9f5e-3ad684768870">
-    <name>СоставнойПараметр</name>
-    <synonym>
-      <key>ru</key>
-      <value>Составной параметр</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -229,7 +199,25 @@
       <value>Тип значения</value>
     </synonym>
     <type>
-      <types>CatalogRef.ПредопределенныеНастройки</types>
+      <types>EnumRef.ТипыЗначенияПредопределенныхЗначений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e57b0d61-d02b-4d40-a64c-dd1e39271707">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
