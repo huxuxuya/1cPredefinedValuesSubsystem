@@ -151,26 +151,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="74e12901-3281-4e03-ae04-8716438b068e">
-    <name>Содержание</name>
-    <synonym>
-      <key>ru</key>
-      <value>Содержание</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>500</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="9da641bf-ed70-4002-9df0-d8731456ac42">
     <name>ИмяНастройки</name>
     <synonym>
