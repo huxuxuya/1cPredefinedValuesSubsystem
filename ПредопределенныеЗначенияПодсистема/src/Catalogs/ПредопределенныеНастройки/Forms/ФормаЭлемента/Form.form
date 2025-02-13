@@ -209,6 +209,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.ТипЗначения</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ТипЗначенияПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ТипЗначенияРасширеннаяПодсказка</name>
           <id>101</id>
@@ -328,22 +332,22 @@
     <name>ГруппаСтраницы</name>
     <id>12</id>
     <items xsi:type="form:FormGroup">
-      <name>СтраницаПараметр</name>
-      <id>14</id>
+      <name>СтраницаЗначениеБулево</name>
+      <id>111</id>
       <items xsi:type="form:FormField">
-        <name>Параметр</name>
-        <id>23</id>
+        <name>ЗначениеБулево</name>
+        <id>108</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Значение</segments>
+          <segments>ЗначениеБулево</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПараметрРасширеннаяПодсказка</name>
-          <id>25</id>
+          <name>ЗначениеБулевоРасширеннаяПодсказка</name>
+          <id>110</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -357,8 +361,86 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПараметрКонтекстноеМеню</name>
-          <id>24</id>
+          <name>ЗначениеБулевоКонтекстноеМеню</name>
+          <id>109</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo">
+          <checkBoxType>Switcher</checkBoxType>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Страница значение булево</value>
+      </title>
+      <extendedTooltip>
+        <name>СтраницаЗначениеБулевоРасширеннаяПодсказка</name>
+        <id>112</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>СтраницаПараметр</name>
+      <id>14</id>
+      <items xsi:type="form:FormField">
+        <name>Значение</name>
+        <id>105</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Значение</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ЗначениеРасширеннаяПодсказка</name>
+          <id>107</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ЗначениеКонтекстноеМеню</name>
+          <id>106</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -375,7 +457,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
-          <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -992,7 +1073,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Страница составной</value>
+        <value>Страница ключ значение</value>
       </title>
       <toolTip>
         <key>ru</key>
@@ -1240,6 +1321,41 @@
       <value>Это таблица значений</value>
     </title>
     <id>5</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЭтоПараметрБулево</name>
+    <title>
+      <key>ru</key>
+      <value>Это параметр булево</value>
+    </title>
+    <id>6</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЗначениеБулево</name>
+    <title>
+      <key>ru</key>
+      <value>Значение булево</value>
+    </title>
+    <id>7</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
