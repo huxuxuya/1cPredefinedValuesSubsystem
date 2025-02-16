@@ -345,6 +345,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>ЗначениеБулево</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ЗначениеБулевоПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ЗначениеБулевоРасширеннаяПодсказка</name>
           <id>110</id>
