@@ -267,7 +267,9 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
+            <width>6</width>
             <autoMaxWidth>true</autoMaxWidth>
+            <height>3</height>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
               <picture xsi:type="core:PictureRef">
@@ -317,8 +319,10 @@
             <maxWidth>32</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <horizontalStretch>false</horizontalStretch>
+            <groupVerticalAlign>Center</groupVerticalAlign>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
+              <verticalAlign>Center</verticalAlign>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -447,7 +451,10 @@
               </userVisible>
               <autoFill>true</autoFill>
             </contextMenu>
+            <width>6</width>
             <autoMaxWidth>true</autoMaxWidth>
+            <maxWidth>3</maxWidth>
+            <height>3</height>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
               <picture xsi:type="core:PictureRef">
@@ -497,8 +504,10 @@
             <maxWidth>32</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <horizontalStretch>false</horizontalStretch>
+            <groupVerticalAlign>Center</groupVerticalAlign>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
+              <verticalAlign>Center</verticalAlign>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -2177,6 +2186,23 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СозданПрограммно</name>
+    <title>
+      <key>ru</key>
+      <value>Создан программно</value>
+    </title>
+    <id>9</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
