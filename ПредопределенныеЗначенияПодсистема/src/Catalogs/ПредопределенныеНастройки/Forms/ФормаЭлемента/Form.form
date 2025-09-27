@@ -1207,31 +1207,31 @@
       <name>СтраницаМассив</name>
       <id>16</id>
       <items xsi:type="form:Table">
-        <name>Параметры</name>
-        <id>61</id>
+        <name>Массив</name>
+        <id>123</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>Объект.Параметры</segments>
+          <segments>Массив</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <items xsi:type="form:FormField">
-          <name>ПараметрыЗначение</name>
-          <id>77</id>
+          <name>МассивЗначение</name>
+          <id>136</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Параметры.Значение</segments>
+            <segments>Массив.Value</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПараметрыЗначениеРасширеннаяПодсказка</name>
-            <id>79</id>
+            <name>МассивЗначениеРасширеннаяПодсказка</name>
+            <id>138</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1245,8 +1245,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПараметрыЗначениеКонтекстноеМеню</name>
-            <id>78</id>
+            <name>МассивЗначениеКонтекстноеМеню</name>
+            <id>137</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1255,7 +1255,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -1263,15 +1263,14 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
-            <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
           </extInfo>
         </items>
         <autoCommandBar>
-          <name>ПараметрыКоманднаяПанель</name>
-          <id>63</id>
+          <name>МассивКоманднаяПанель</name>
+          <id>124</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1280,21 +1279,17 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
-        <handlers>
-          <event>OnStartEdit</event>
-          <name>ПараметрыПриНачалеРедактирования</name>
-        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ПараметрыСтрокаПоиска</name>
-          <id>65</id>
+          <name>МассивСтрокаПоиска</name>
+          <id>127</id>
           <extendedTooltip>
-            <name>ПараметрыСтрокаПоискаРасширеннаяПодсказка</name>
-            <id>67</id>
+            <name>МассивСтрокаПоискаРасширеннаяПодсказка</name>
+            <id>129</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1308,8 +1303,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПараметрыСтрокаПоискаКонтекстноеМеню</name>
-            <id>66</id>
+            <name>МассивСтрокаПоискаКонтекстноеМеню</name>
+            <id>128</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1317,7 +1312,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>Параметры</source>
+          <source>Массив</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1328,11 +1323,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ПараметрыСостояниеПросмотра</name>
-          <id>68</id>
+          <name>МассивСостояниеПросмотра</name>
+          <id>133</id>
           <extendedTooltip>
-            <name>ПараметрыСостояниеПросмотраРасширеннаяПодсказка</name>
-            <id>70</id>
+            <name>МассивСостояниеПросмотраРасширеннаяПодсказка</name>
+            <id>135</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1346,8 +1341,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПараметрыСостояниеПросмотраКонтекстноеМеню</name>
-            <id>69</id>
+            <name>МассивСостояниеПросмотраКонтекстноеМеню</name>
+            <id>134</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1356,7 +1351,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>Параметры</source>
+          <source>Массив</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -1367,11 +1362,11 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <name>ПараметрыУправлениеПоиском</name>
-          <id>71</id>
+          <name>МассивУправлениеПоиском</name>
+          <id>130</id>
           <extendedTooltip>
-            <name>ПараметрыУправлениеПоискомРасширеннаяПодсказка</name>
-            <id>73</id>
+            <name>МассивУправлениеПоискомРасширеннаяПодсказка</name>
+            <id>132</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1385,8 +1380,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ПараметрыУправлениеПоискомКонтекстноеМеню</name>
-            <id>72</id>
+            <name>МассивУправлениеПоискомКонтекстноеМеню</name>
+            <id>131</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1395,14 +1390,14 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>Параметры</source>
+          <source>Массив</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ПараметрыРасширеннаяПодсказка</name>
-          <id>64</id>
+          <name>МассивРасширеннаяПодсказка</name>
+          <id>126</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1416,8 +1411,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПараметрыКонтекстноеМеню</name>
-          <id>62</id>
+          <name>МассивКонтекстноеМеню</name>
+          <id>125</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1425,7 +1420,6 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <representation>HierarchicalList</representation>
         <changeRowSet>true</changeRowSet>
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1439,15 +1433,11 @@
         <verticalScrollBar>AutoUse</verticalScrollBar>
         <horizontalLines>true</horizontalLines>
         <verticalLines>true</verticalLines>
-        <autoInsertNewRow>true</autoInsertNewRow>
         <searchOnInput>Auto</searchOnInput>
         <initialListView>Auto</initialListView>
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
-        <enableStartDrag>true</enableStartDrag>
-        <enableDrag>true</enableDrag>
         <fileDragMode>AsFileRef</fileDragMode>
-        <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2210,6 +2200,26 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>Массив</name>
+    <title>
+      <key>ru</key>
+      <value>Массив</value>
+    </title>
+    <id>10</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <commandInterface>
     <navigationPanel/>
