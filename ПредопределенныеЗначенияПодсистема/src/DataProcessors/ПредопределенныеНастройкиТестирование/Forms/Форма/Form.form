@@ -44,7 +44,7 @@
       </items>
       <items xsi:type="form:Decoration">
         <name>НастройкиСозданы</name>
-        <id>9</id>
+        <id>99</id>
         <title>
           <key>ru</key>
           <value>Декорация1</value>
