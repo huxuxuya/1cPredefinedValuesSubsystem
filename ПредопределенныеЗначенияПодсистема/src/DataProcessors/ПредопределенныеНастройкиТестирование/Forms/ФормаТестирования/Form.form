@@ -258,7 +258,6 @@
           <key>ru</key>
           <value>Настройки удалены</value>
         </toolTip>
-        <toolTipRepresentation>Button</toolTipRepresentation>
         <extendedTooltip>
           <name>НастройкиУдаленыРасширеннаяПодсказка</name>
           <id>23</id>
@@ -370,8 +369,16 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Группа1</value>
+      <value>Групповая проверка настроек</value>
     </title>
+    <titleTextColor xsi:type="core:ColorRef">
+      <color>Style.TableFooterTextColor</color>
+    </titleTextColor>
+    <toolTip>
+      <key>ru</key>
+      <value>Проверка по всем типам предопределенных настроек. </value>
+    </toolTip>
+    <toolTipRepresentation>ShowBottom</toolTipRepresentation>
     <extendedTooltip>
       <name>ГруппаШапкаРасширеннаяПодсказка</name>
       <id>2</id>
@@ -394,6 +401,7 @@
       <behavior>Auto</behavior>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
+      <showTitle>true</showTitle>
       <throughAlign>Auto</throughAlign>
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
@@ -537,7 +545,7 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>AlwaysHorizontal</group>
         <behavior>Auto</behavior>
-        <representation>WeakSeparation</representation>
+        <representation>NormalSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <showTitle>true</showTitle>
@@ -681,7 +689,7 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>HorizontalIfPossible</group>
         <behavior>Auto</behavior>
-        <representation>WeakSeparation</representation>
+        <representation>NormalSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <showTitle>true</showTitle>
@@ -825,7 +833,7 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>HorizontalIfPossible</group>
         <behavior>Auto</behavior>
-        <representation>WeakSeparation</representation>
+        <representation>NormalSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <showTitle>true</showTitle>
@@ -969,7 +977,7 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>HorizontalIfPossible</group>
         <behavior>Auto</behavior>
-        <representation>WeakSeparation</representation>
+        <representation>NormalSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <showTitle>true</showTitle>
@@ -1113,7 +1121,7 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>HorizontalIfPossible</group>
         <behavior>Auto</behavior>
-        <representation>WeakSeparation</representation>
+        <representation>NormalSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <showTitle>true</showTitle>
@@ -1257,7 +1265,7 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>HorizontalIfPossible</group>
         <behavior>Auto</behavior>
-        <representation>WeakSeparation</representation>
+        <representation>NormalSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <showTitle>true</showTitle>
