@@ -814,7 +814,7 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаМассив</name>
-        <id>98</id>
+        <id>129</id>
         <items xsi:type="form:Button">
           <name>СозданиеПредопределеннойНастройкиМассив</name>
           <id>93</id>
@@ -912,7 +912,7 @@
         </title>
         <extendedTooltip>
           <name>ГруппаМассивРасширеннаяПодсказка</name>
-          <id>95</id>
+          <id>128</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -953,7 +953,7 @@
           </userVisible>
           <extendedTooltip>
             <name>СозданиеПредопределеннойНастройкиТаблицаЗначенийРасширеннаяПодсказка</name>
-            <id>89</id>
+            <id>131</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1013,7 +1013,7 @@
           </userVisible>
           <extendedTooltip>
             <name>УдалениеПредопределеннойНастройкиТаблицаЗначенийРасширеннаяПодсказка</name>
-            <id>90</id>
+            <id>127</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1064,39 +1064,8 @@
         <name>ГруппаКлючЗначение</name>
         <id>70</id>
         <items xsi:type="form:Button">
-          <name>УдалениеПредопределеннойНастройкиКлючЗначение</name>
-          <id>91</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>УдалениеПредопределеннойНастройкиКлючЗначениеРасширеннаяПодсказка</name>
-            <id>92</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>UsualButton</type>
-          <commandName>Form.Command.УдалениеПредопределеннойНастройкиКлючЗначение</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
-        <items xsi:type="form:Button">
           <name>УстановитьЗначениеПредопределеннойНастройкиКлючЗначение</name>
-          <id>76</id>
+          <id>135</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1104,7 +1073,7 @@
           </userVisible>
           <extendedTooltip>
             <name>УстановитьЗначениеПредопределеннойНастройкиКлючЗначениеРасширеннаяПодсказка</name>
-            <id>93</id>
+            <id>136</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1126,8 +1095,39 @@
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
+          <name>УдалениеПредопределеннойНастройкиКлючЗначение</name>
+          <id>137</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>УдалениеПредопределеннойНастройкиКлючЗначениеРасширеннаяПодсказка</name>
+            <id>138</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.УдалениеПредопределеннойНастройкиКлючЗначение</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
           <name>СозданиеПредопределеннойНастройкиКлючЗначение</name>
-          <id>74</id>
+          <id>139</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1135,7 +1135,7 @@
           </userVisible>
           <extendedTooltip>
             <name>СозданиеПредопределеннойНастройкиКлючЗначениеРасширеннаяПодсказка</name>
-            <id>94</id>
+            <id>140</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1156,6 +1156,99 @@
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
+        <items xsi:type="form:Button">
+          <name>СозданиеПредопределеннойНастройкиКлючИЗначение</name>
+          <id>141</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>СозданиеПредопределеннойНастройкиКлючИЗначениеРасширеннаяПодсказка</name>
+            <id>142</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.СозданиеПредопределеннойНастройкиКлючИЗначение</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
+          <name>УдалениеПредопределеннойНастройкиКлючИЗначение</name>
+          <id>143</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>УдалениеПредопределеннойНастройкиКлючИЗначениеРасширеннаяПодсказка</name>
+            <id>144</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.УдалениеПредопределеннойНастройкиКлючИЗначение</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
+          <name>УстановитьЗначениеПредопределеннойНастройкиКлючИЗначение</name>
+          <id>145</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>УстановитьЗначениеПредопределеннойНастройкиКлючИЗначениеРасширеннаяПодсказка</name>
+            <id>146</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.УстановитьЗначениеПредопределеннойНастройкиКлючИЗначение</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1167,7 +1260,7 @@
         </title>
         <extendedTooltip>
           <name>ГруппаКлючЗначениеРасширеннаяПодсказка</name>
-          <id>97</id>
+          <id>130</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1869,6 +1962,42 @@
         <name>СозданиеПредопределеннойНастройкиКлючЗначение</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СозданиеПредопределеннойНастройкиКлючИЗначение</name>
+    <title>
+      <key>ru</key>
+      <value>Создание предопределенной настройки ключ и значение</value>
+    </title>
+    <id>15</id>
+    <use>
+      <common>true</common>
+    </use>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УдалениеПредопределеннойНастройкиКлючИЗначение</name>
+    <title>
+      <key>ru</key>
+      <value>Удаление предопределенной настройки ключ и значение</value>
+    </title>
+    <id>16</id>
+    <use>
+      <common>true</common>
+    </use>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УстановитьЗначениеПредопределеннойНастройкиКлючИЗначение</name>
+    <title>
+      <key>ru</key>
+      <value>Установить значение предопределенной настройки ключ и значение</value>
+    </title>
+    <id>17</id>
+    <use>
+      <common>true</common>
+    </use>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

@@ -10,12 +10,21 @@
     <value>Предопределенные настройки тестирование</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.ПредопределенныеНастройкиТестирование.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.ПредопределенныеНастройкиТестирование.Form.ФормаТестирования</defaultForm>
   <forms uuid="2873927e-ad6b-4a36-bfa2-f5822a2a2ab1">
     <name>Форма</name>
     <synonym>
       <key>ru</key>
       <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ebdf8e8f-fd31-43ea-b24b-19a8b9f83369">
+    <name>ФормаТестирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма тестирования</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

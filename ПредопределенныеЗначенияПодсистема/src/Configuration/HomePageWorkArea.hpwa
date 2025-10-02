@@ -3,7 +3,7 @@
   <workingAreaTemplate>TwoColumnsEqualWidth</workingAreaTemplate>
   <columns>
     <items>
-      <form>DataProcessor.ПредопределенныеНастройкиТестирование.Form.Форма</form>
+      <form>DataProcessor.ПредопределенныеНастройкиТестирование.Form.ФормаТестирования</form>
       <height>10</height>
       <visibility>
         <common>true</common>
