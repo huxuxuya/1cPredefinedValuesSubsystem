@@ -216,6 +216,10 @@
       <items xsi:type="form:FormField">
         <name>ИмяНастройки</name>
         <id>41</id>
+        <title>
+          <key>ru</key>
+          <value>Имя</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -634,6 +638,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ 
