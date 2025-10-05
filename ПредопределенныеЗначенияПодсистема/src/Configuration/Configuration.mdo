@@ -41,6 +41,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.БазовыеПодсистемы</subsystems>
+  <commonPictures>CommonPicture.ТипыЗначений</commonPictures>
   <roles>Role.ДобавлениеИзменениеПредопределенныеЗначения</roles>
   <commonModules>CommonModule.БазоваяФункциональность</commonModules>
   <commonModules>CommonModule.БазоваяФункциональностьКлиентСервер</commonModules>
