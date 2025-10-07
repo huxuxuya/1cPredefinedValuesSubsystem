@@ -1078,9 +1078,6 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <fileDragMode>AsFileRef</fileDragMode>
-        <backColor xsi:type="core:ColorRef">
-          <color>Style.NavigationColor</color>
-        </backColor>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1475,7 +1472,7 @@
     </title>
     <toolTip>
       <key>ru</key>
-      <value>Значения настроек задаются программно в коде и в дальнейшем могут изменяться пользователем</value>
+      <value>Типы устанавливаемых значений определяются программно</value>
     </toolTip>
     <toolTipRepresentation>ShowTop</toolTipRepresentation>
     <extendedTooltip>
