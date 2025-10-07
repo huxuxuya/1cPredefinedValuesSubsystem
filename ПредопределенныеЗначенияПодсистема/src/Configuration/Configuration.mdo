@@ -16,7 +16,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Fedor Timokhov</vendor>
-  <version>0.9-rc2</version>
+  <version>0.9-rc3</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -43,6 +43,7 @@
   <subsystems>Subsystem.БазовыеПодсистемы</subsystems>
   <commonPictures>CommonPicture.ТипыЗначений</commonPictures>
   <roles>Role.ДобавлениеИзменениеПредопределенныеЗначения</roles>
+  <roles>Role.ЧтениеПредопределенныеЗначения</roles>
   <commonModules>CommonModule.БазоваяФункциональность</commonModules>
   <commonModules>CommonModule.БазоваяФункциональностьКлиентСервер</commonModules>
   <commonModules>CommonModule.ПредопределенныеНастройки</commonModules>
