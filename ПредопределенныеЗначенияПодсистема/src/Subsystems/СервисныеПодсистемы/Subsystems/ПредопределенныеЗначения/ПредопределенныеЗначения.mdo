@@ -9,5 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ПредопределенныеНастройки</content>
   <content>DataProcessor.ПредопределенныеНастройкиТестирование</content>
-  <parentSubsystem>Subsystem.БазовыеПодсистемы</parentSubsystem>
+  <parentSubsystem>Subsystem.СервисныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
