@@ -16,7 +16,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Fedor Timokhov</vendor>
-  <version>0.9-rc5</version>
+  <version>0.9-rc6</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
