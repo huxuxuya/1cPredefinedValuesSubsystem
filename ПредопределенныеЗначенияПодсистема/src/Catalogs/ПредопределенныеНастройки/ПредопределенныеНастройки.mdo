@@ -178,6 +178,7 @@
     </fillValue>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="054e6ebd-873d-4a7f-82b3-58307f2a499e">
@@ -193,6 +194,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="e57b0d61-d02b-4d40-a64c-dd1e39271707">

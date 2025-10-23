@@ -519,8 +519,70 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ГруппаУдаления</name>
+          <name>ГруппаКаталог</name>
           <id>88</id>
+          <items xsi:type="form:Button">
+            <name>СозданиеПредопределеннойНастройкиКаталогПредопределенныхНастроек</name>
+            <id>96</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>СозданиеПредопределеннойНастройкиКаталогПредопределенныхНастроекРасширеннаяПодсказка</name>
+              <id>97</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.СозданиеПредопределеннойНастройкиКаталогПредопределенныхНастроек</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>УдалениеПредопределеннойНастройкиКаталогПредопределенныхНастроек</name>
+            <id>98</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>УдалениеПредопределеннойНастройкиКаталогПредопределенныхНастроекРасширеннаяПодсказка</name>
+              <id>99</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.УдалениеПредопределеннойНастройкиКаталогПредопределенныхНастроек</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -528,10 +590,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Удаление</value>
+            <value>Каталог</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаУдаленияРасширеннаяПодсказка</name>
+            <name>ГруппаКаталогРасширеннаяПодсказка</name>
             <id>89</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -547,7 +609,7 @@
           </extendedTooltip>
           <type>Page</type>
           <extInfo xsi:type="form:PageGroupExtInfo">
-            <group>Vertical</group>
+            <group>AlwaysHorizontal</group>
             <showTitle>true</showTitle>
           </extInfo>
         </items>
@@ -2098,6 +2160,40 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>УстановитьТестовые</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СозданиеПредопределеннойНастройкиКаталогПредопределенныхНастроек</name>
+    <title>
+      <key>ru</key>
+      <value>Создать каталог</value>
+    </title>
+    <id>25</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СозданиеПредопределеннойНастройкиКаталогПредопределенныхНастроек</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УдалениеПредопределеннойНастройкиКаталогПредопределенныхНастроек</name>
+    <title>
+      <key>ru</key>
+      <value>Удалить каталог</value>
+    </title>
+    <id>26</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УдалениеПредопределеннойНастройкиКаталогПредопределенныхНастроек</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

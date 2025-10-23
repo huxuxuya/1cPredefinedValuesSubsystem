@@ -61,4 +61,12 @@
       <value>Таблица значений</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="b200bf5f-77a3-4e9f-9abd-ac3790d17a0c">
+    <name>КаталогПредопределенныхНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог предопределенных настроек</value>
+    </synonym>
+    <comment>Группа настроек, без установки значения</comment>
+  </enumValues>
 </mdclass:Enum>
