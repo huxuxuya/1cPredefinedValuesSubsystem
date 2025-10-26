@@ -50,4 +50,5 @@
   <catalogs>Catalog.ПредопределенныеНастройки</catalogs>
   <enums>Enum.ТипыЗначенияПредопределенныхЗначений</enums>
   <dataProcessors>DataProcessor.ПредопределенныеНастройкиТестирование</dataProcessors>
+  <dataProcessors>DataProcessor.ТестированиеДокументации</dataProcessors>
 </mdclass:Configuration>
