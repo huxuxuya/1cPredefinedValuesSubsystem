@@ -1019,3 +1019,10 @@ URL = ПредопределенныеНастройки.Значение("URL_A
 ## Контакты
 
 Автор: **Fedor Timokhov**
+
+## Публикация
+
+<div align="center">
+[![Опубликовано на Infostart.ru](https://infostart.ru/bitrix/templates/sandbox_empty/assets/tpl/abo/img/logo.svg)](https://infostart.ru/public/2513626/)
+**[Читать публикацию →](https://infostart.ru/public/2513626/)**
+</div>
