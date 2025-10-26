@@ -1023,6 +1023,7 @@ URL = ПредопределенныеНастройки.Значение("URL_A
 ## Публикация
 
 <div align="center">
-[![Опубликовано на Infostart.ru](https://infostart.ru/bitrix/templates/sandbox_empty/assets/tpl/abo/img/logo.svg)](https://infostart.ru/public/2513626/)
-**[Читать публикацию →](https://infostart.ru/public/2513626/)**
+<a href="https://infostart.ru/public/2513626/"><img src="Docs/infostart-logo.svg" alt="Infostart.ru" height="40"></a>
 </div>
+
+<p align="center"><a href="https://infostart.ru/public/2513626/">📄 Читать публикацию</a></p>
